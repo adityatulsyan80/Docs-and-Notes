@@ -1,0 +1,55 @@
+.container{
+  width:60%;
+  background: #FFF;
+  box-shadow:0 0 5px 0 rgba(0,0,0,0.5);
+  margin:10px auto 10px auto !important;
+  min-height: 100vh;
+}
+
+.ql-toolbar.ql-snow{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  z-index: 1;
+  background: #F3F3F3;
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+} 
+.header {
+  background-color: #ffffff;
+  margin: auto -10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px 0 rgb(110, 110, 110);
+  flex-direction: row;
+  display: flex;
+  
+}
+
+.header h1 {
+  color: #5f6368;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right: 975px;
+  
+}
+
+.header a:link, a:visited {
+  background-color: rgb(7, 121, 193);
+  color: white;
+  padding: 16px 20px;
+  padding-top: 15px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: right;
+  height: 20px;
+  width: 80px;
+}
+
+.header a:hover, a:active {
+  background-color: lightskyblue;
+  
+}
